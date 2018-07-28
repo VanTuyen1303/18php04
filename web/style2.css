@@ -1,0 +1,11 @@
+h2{
+	color: lightgreen;
+}
+input{
+	border-color: orange;
+	color: blue;
+}
+p, h4{
+	color: red;
+	font-size: 20px;
+}

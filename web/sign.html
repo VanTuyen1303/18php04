@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+  	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="favicon.ico">
+  	<meta charset="utf-8">
+  	<meta name="description" content="Learn HTML5, CSS3, PHP">
+  	<meta name="keywords" content="PHP, HTML5, CSS3">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<form action="sign.html" method="post">
+		<table width="400px" border="2" cellpadding="5" align="center">
+			<tr>
+				<th colspan="2">ĐĂNG KÝ</th>
+			</tr>
+			<tr>
+				<td>Full name</td>
+				<td>
+					<input type="text" name="fname" size="30" placeholder="Nhập fullname">
+				</td>
+			</tr>
+			<tr>
+				<td>Username</td>
+				<td>
+					<input type="text" name="user" size="30" placeholder="Nhập tên">
+				</td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<input type="password" name="pass" size="30" placeholder="Nhập mật khẩu">
+				</td>
+			</tr>
+			<tr>
+				<td>Nhập lại Password</td>
+				<td>
+					<input type="password" name="repass" size="30" placeholder="Nhập lại mật khẩu">
+				</td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td>
+					<label>
+						<input type="radio" name="gioitinh" id="Nam">Nam
+					</label>
+					<label>
+						<input type="radio" name="gioitinh" id="nu">Nu
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày sinh</td>
+				<td>
+					<select name="day">
+						<option value="ngay1">Ngày 1</option>
+						<option value="ngay2">Ngày 2</option>
+						<option value="ngay3">Ngày 3</option>
+					</select>
+					<select name="month">
+						<option value="thang1">Tháng 1</option>
+						<option value="thang2">Tháng 2</option>
+						<option value="thang3">Tháng 3</option>
+					</select>
+					<select name="year">
+						<option value="nam2015">Năm 2015</option>
+						<option value="nam2016">Năm 2016</option>
+						<option value="nam2017">Năm 2017</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ</td>
+				<td>
+					<textarea cols="20"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Avartar</td>
+				<td>
+					<input type="file" name="avartar">
+				</td>
+			</tr>
+			<tr>
+				<td>Sở thích</td>
+				<td>
+					<label>
+						<input type="checkbox" name="xemphim">Xem phim
+					</label>
+					<label>
+						<input type="checkbox" name="dulich">Du lịch
+					</label>
+					<label>
+						<input type="checkbox" name="shopping">Shopping
+					</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="reset" name="reset" value="Reset"> &nbsp;&nbsp;
+					<input type="submit" name="ok" value="OK">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
